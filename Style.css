@@ -1,0 +1,32 @@
+
+body
+{
+ background-color:#E5E8E8;
+
+}
+
+
+h1{
+    /*color: #2E4053;*/
+    color: white;
+}
+
+#titre{
+    display:block;
+    height: 42px;
+	background:#069;
+
+}
+
+#Ques{
+    display:block;
+    height: 100px;
+	background:#ecf0f1;
+}
+
+#Menu{
+    display:block;
+    height: 60px;
+	background:#34495e;
+
+}

@@ -1,0 +1,54 @@
+.Menu #QuestionEC, #Stat, #deco{
+     
+   /* width: 300px; /* Cette largeur sert d’exemple, vous pouvez la modifier si vous voulez. */
+    /*height: 50px;/*la hauteur*/
+    /*border-radius:5px;
+    font-family: Jazz LET;
+    font-size: 20px;*/
+}
+
+.Menu a {
+    
+   background-color:#808B96;
+   color: white;     
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  
+  border-radius: 4px;
+  
+  text-shadow: none;
+  background: #F6F6F6;
+  background-image: -webkit-linear-gradient(top, #273746, #17202A  );
+  background-image: -moz-linear-gradient(top, #273746, #17202A  );
+  background-image: -ms-linear-gradient(top, #273746, #17202A  );
+  background-image: -o-linear-gradient(top, #273746, #17202A  );
+  background-image: linear-gradient(to bottom, #273746, #17202A  );    
+  color: buttontext;
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: Jazz LET;
+  font-size: 20px;
+  color : white;
+   transition: all 0.5s ease;
+}
+
+.Menu a:hover {
+  background-image: -webkit-linear-gradient(top, #DDDDDD, #F6F6F6);
+  background-image: -moz-linear-gradient(top, #DDDDDD, #F6F6F6);
+  background-image: -ms-linear-gradient(top, #DDDDDD, #F6F6F6);
+  background-image: -o-linear-gradient(top, #DDDDDD, #F6F6F6, #DDDDDD);
+  background-image: linear-gradient(to bottom, #DDDDDD, #F6F6F6); 
+  color : black; 
+  font-size: 30px; 
+}
+
+.Menu a.deco:hover {
+  background-image: -webkit-linear-gradient(top, #DDDDDD, #E74C3C);
+  background-image: -moz-linear-gradient(top, #DDDDDD, #E74C3C);
+  background-image: -ms-linear-gradient(top, #DDDDDD, #E74C3C);
+  background-image: -o-linear-gradient(top, #DDDDDD, #E74C3C, #DDDDDD);
+  background-image: linear-gradient(to bottom, #DDDDDD, #E74C3C); 
+  color : white;  
+  font-size: 30px;
+}
